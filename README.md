@@ -18,5 +18,7 @@ under the
 ## Thanks
 
 *   [github: holman/dotfiles](https://github.com/holman/dotfiles)
+*   [github: LukeSmithxyz/voidric](https://github.com/LukeSmithxyz/voidrice)
+*   [github: mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
 *   [gitlab: rsrchboy/dot-vim](https://gitlab.com/rsrchboy/dot-vim)
 
