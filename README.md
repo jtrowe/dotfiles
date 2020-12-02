@@ -17,6 +17,7 @@ under the
 
 ## Thanks
 
+*   [askubuntu.com : Bash history handling with multiple terminals](https://askubuntu.com/questions/80371/bash-history-handling-with-multiple-terminals)
 *   [github: holman/dotfiles](https://github.com/holman/dotfiles)
 *   [github: LukeSmithxyz/voidric](https://github.com/LukeSmithxyz/voidrice)
 *   [github: mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
