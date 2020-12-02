@@ -15,3 +15,8 @@ under the
 [MIT License](LICENSE.md).
 
 
+## Thanks
+
+*   [github: holman/dotfiles](https://github.com/holman/dotfiles)
+*   [gitlab: rsrchboy/dot-vim](https://gitlab.com/rsrchboy/dot-vim)
+
