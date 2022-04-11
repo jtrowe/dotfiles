@@ -22,5 +22,13 @@ PROMPT_COMMAND='history -a'
 # So this variable is availabe to shells
 export HISTFILE
 
-# Creates symlink in current directory to $HISTFILE
-alias local-history='ln --symbolic $HISTFILE .$(basename $HISTFILE)'
+# Will create a symlink in current directory to $HISTFILE
+# and set the environment variable LOCAL_HISTDIR to the
+# current directory.
+# ( So you can remember where you called # local-history. )
+function local-history {
+    LOCAL_HISTDIR=$(pwd -P)
+    export LOCAL_HISTDIR
+    ln --symbolic $HISTFILE .$(basename $HISTFILE)
+}
+
