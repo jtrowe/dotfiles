@@ -16,5 +16,11 @@ HISTFILESIZE=0
 HISTFILESIZE=10000
 HISTSIZE=10000
 
+# Write the history file after every command
 PROMPT_COMMAND='history -a'
 
+# So this variable is availabe to shells
+export HISTFILE
+
+# Creates symlink in current directory to $HISTFILE
+alias local-history='ln --symbolic $HISTFILE .$(basename $HISTFILE)'
