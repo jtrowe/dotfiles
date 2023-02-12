@@ -1,0 +1,20 @@
+# jrowe dev process
+.c*.txt
+
+# jrowe shell history files
+.history.*.log
+
+# Perl Devel::Cover
+cover_db/
+
+# Perl Dist::Zilla
+.build/
+
+# Temp files
+tmp/
+
+# vim related files
+*~
+*.swp
+.viminfo
+

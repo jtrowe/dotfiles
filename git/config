@@ -1,0 +1,9 @@
+[user]
+	email = jrowe@jrowe.org
+	name = Joshua T. Rowe
+[core]
+	excludesfile = ~/.git/gitignore
+[fetch]
+	prune = true
+[alias]
+	ff-merge = merge --ff-only
