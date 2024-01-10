@@ -109,3 +109,14 @@ augroup TSV
     :autocmd BufLeave  *.tsv   source ~/.vimrc
 augroup END
 
+" Autocommands for YAML
+augroup Yaml
+    " Remove ALL autocommands for the current group.
+    :autocmd!
+
+    :autocmd BufEnter  *.yaml   set tabstop=2 shiftwidth=2 textwidth=80
+    :autocmd BufEnter  *.yml    set tabstop=2 shiftwidth=2 textwidth=80
+    :autocmd BufLeave  *.yaml   source ~/.vimrc
+    :autocmd BufLeave  *.yml    source ~/.vimrc
+augroup END
+
