@@ -27,8 +27,16 @@ export HISTFILE
 # current directory.
 # ( So you can remember where you called # local-history. )
 function local-history {
+    name=${1:-}
+    if [ "" != "$name" ]
+    then
+        name="${name}."
+    fi
+
     LOCAL_HISTDIR=$(pwd -P)
     export LOCAL_HISTDIR
-    ln --symbolic $HISTFILE .$(basename $HISTFILE)
+
+    link=${name}$(date +%Y%m%d-%H%M%S).$$.log
+    ln --symbolic $HISTFILE .$link
 }
 
