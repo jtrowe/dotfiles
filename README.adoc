@@ -9,7 +9,7 @@ included plugins, linked submodules, etc, and the like are copyright their
 respective creators and licensed under their terms.  For information, please
 see any files in question for embedded information.
 
-The remainder is copyright 2020
+The remainder is copyright 2020-2025
 http://jrowe.org[Joshua T. Rowe]
 under the
 link:../LICENSE.adoc[MIT License].
